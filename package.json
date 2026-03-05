@@ -5,11 +5,7 @@
   "scripts": {
     "dev": "echo 'Do not use this command, only use lint to check'",
     "build": "echo 'Do not use this command, only use lint to check'",
-<<<<<<< HEAD
     "lint": "tsgo -p tsconfig.check.json; biome lint --only=correctness/noUndeclaredDependencies; ast-grep scan"
-=======
-    "lint": "tsgo -p tsconfig.check.json; npx biome lint; .rules/check.sh;npx tailwindcss -i ./src/index.css -o /dev/null 2>&1 | grep -E '^(CssSyntaxError|Error):.*' || true;.rules/testBuild.sh"
->>>>>>> 2df551f (Initial miaoda project setup with React TypeScript Vite template c28d4895a1a4abe7f24cc3b6057089730681027b no sync)
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -92,13 +88,7 @@
     "tailwindcss": "^3.4.11",
     "typescript": "~5.9.3",
     "vite": "npm:rolldown-vite@latest",
-<<<<<<< HEAD
     "vite-plugin-svgr": "^4.5.0",
     "miaoda-sc-plugin": "^1.0.4"
   }
 }
-=======
-    "vite-plugin-svgr": "^4.5.0"
-  }
-}
->>>>>>> 2df551f (Initial miaoda project setup with React TypeScript Vite template c28d4895a1a4abe7f24cc3b6057089730681027b no sync)
